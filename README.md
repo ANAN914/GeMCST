@@ -130,7 +130,7 @@ Profile settings and environment-variable overrides should be checked together w
 
 ## Manuscript training settings
 
-The manuscript reports 500 pretraining epochs followed by 350 joint-training epochs, an SRI-CLR loss weight of 0.06, SRI-CLR activation at epoch 105 and Soft-Potts auxiliary-label updates every 20 epochs. These are reported experimental settings, not a claim that every dataset profile uses identical defaults.
+The manuscript reports 500 pretraining epochs followed by 350 joint-training epochs, an SRI-CLR loss weight of 0.06, SRI-CLR activation at epoch 105 and Soft-Potts auxiliary-label updates every 20 epochs. 
 
 For example, set the training duration and SRI-CLR start explicitly before running the pipeline.
 
@@ -152,7 +152,7 @@ $env:SRI_CLR_WARMUP_EPOCH = "105"
 
 # Hardware specifications
 
-The manuscript reports experiments in an Ubuntu 20.04 environment using computing resources that included a virtual GPU with 32 GB of memory (vGPU-32GB). This describes the reported experimental environment rather than a measured minimum hardware requirement.
+The manuscript reports experiments in an Ubuntu 20.04 environment using computing resources that included a virtual GPU with 32 GB of memory (vGPU-32GB).
 
 # Code structure
 
